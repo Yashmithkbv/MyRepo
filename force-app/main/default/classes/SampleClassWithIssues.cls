@@ -16,6 +16,7 @@ public class SampleClassWithIssues {
     }
 
     public Integer calculateSum(Integer a, Integer b) {
+        Integer redundantVariable = 0; // Redundant variable causing a Sonar issue
         return a + b;
     }
 }
