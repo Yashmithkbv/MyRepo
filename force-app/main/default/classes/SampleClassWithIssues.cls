@@ -14,4 +14,8 @@ public class SampleClassWithIssues {
             // Issue 3: Empty catch block
         }
     }
+
+    public Integer calculateSum(Integer a, Integer b) {
+        return a + b;
+    }
 }
